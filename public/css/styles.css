@@ -3,3 +3,22 @@
     margin: 0;
 }
 
+@font-face 
+{ 
+    font-family: Metropolis; src: url('fonts/Metropolis-Regular.otf'); 
+} 
+
+@font-face 
+{ 
+    font-family: Metropolis; font-weight: Medium; src: url('fonts/Metropolis-Medium.otf');
+}
+
+@font-face 
+{ 
+    font-family: Metropolis; font-weight: bold; src: url('fonts/Metropolis-SemiBold.otf');
+}
+
+@font-face 
+{ 
+    font-family: Metropolis; font-weight: thin; src: url('fonts/Metropolis-Thin.otf');
+}
