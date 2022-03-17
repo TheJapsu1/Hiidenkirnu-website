@@ -9,13 +9,60 @@ body {
     margin: 0px;
     background-image: url("img/3\ -\ PtBK6JK.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
+    background-position: center;
 }
 
 #main {
     height: 100%;
     width: 100%;
+}
+
+#main h1 {
+    font-size: 5rem;
+    letter-spacing: 3pc;
+}
+
+h2 
+{
+    margin-top: 0;
+    padding-top: 2pc;
+    font-family: Metropolis; 
+    color: #DDD;
+}
+
+h3 
+{
+    font-family: Metropolis; 
+    color: #333;
+}
+
+p 
+{
+    font-family: Metropolis, sans-serif;
+    color: #AAA;
+    line-height: 1.5em;
+}
+
+#con01 
+{
+    padding-inline: 30pc;
+    padding-top: 20px;
+    margin: 0;
+    
+}
+#con02
+{
+    padding-inline: 30pc;
+    padding-top: 20px;
+    margin: 0;
+}
+#con03 
+{
+    padding-inline: 30pc;
+    padding-top: 20px;
+    margin: 0;
 }
 
 @font-face 
@@ -31,6 +78,7 @@ body {
 #navBtns button
 {
     background-color: transparent;
+    line-height: 1.5em;
     border: none;
     border-bottom: 2px #AAA solid;
     color: #AAA;
@@ -46,6 +94,12 @@ body {
 {
     border-bottom: 2px #F62 solid;
     color: #F62;
+}
+
+#navBtns button:active
+{
+    border-bottom: 2px #F00 solid;
+    color: #F00;
 }
 
 #totop 
@@ -70,4 +124,29 @@ body {
 #totop:hover
 {
     background-color: #AAAAAA55;
+}
+
+@media only screen and (max-width: 600px) {
+    body 
+    {
+        width: 100%;
+        height: 100vh;
+        margin: 0px;
+        background-image: url("img/3\ -\ PtBK6JK.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #main h1
+    {
+        font-size: 3rem;
+        letter-spacing: 1.5pc;
+    }
+
+    #navBtns button
+    {
+        width: 20rem;
+        margin-bottom: 0;
+    }
 }
