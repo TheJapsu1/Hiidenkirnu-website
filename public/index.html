@@ -8,10 +8,29 @@
         <meta name="author" content="DFN & Japsu">
         <link rel="icon" href="/favicon.ico">
         <link rel="stylesheet" href="styles.css">
+        <script src="js.js"></script>
     </head>
     <body>
-        <div id="main" style="background-color: #222222AA;">
-            <h1 style="text-align: center; color: #DDD; font-family: Metropolis; margin: 0; top: 50%;">Hiidenkirnu</h1>
+        <button id="totop" onclick="document.getElementById('main').scrollIntoView();"><img src="img/1313159942.svg" style="height: 2pc; margin-top: 4px;"></button>
+        <div id="main" style="background-color: #000000AA;">
+            <h1 style="text-align: center; color: #DDD; font-family: Metropolis; margin: 0; font-size: 5rem; letter-spacing: 3pc; padding-top: 15%;">Hiidenkirnu</h1>
+            <div id="navBtns">
+                <button onclick="document.getElementById('con01').scrollIntoView();">Section 1</button>
+                <button onclick="document.getElementById('con02').scrollIntoView();">Section 2</button>
+                <button onclick="document.getElementById('con03').scrollIntoView();">Section 3</button>
+            </div>
+            
+        </div>
+        <div id="con01" style="height: 100%; background-color: #222222;">
+            <div id="imgCar">
+                
+            </div>
+        </div>
+        <div id="con02" style="height: 100%; background-color: #000000AA;">
+            
+        </div>
+        <div id="con03" style="height: 100%; background-color: #000022;">
+            
         </div>
     </body>
 </html>
